@@ -24,7 +24,6 @@ class FarmBot:
         self.ServerIP = IP
         self.ServerPort = Port
         self.BotServer = self.IPToName[ '{}:{}'.format(self.ServerIP, self.ServerPort)]
-        ctypes.windll.kernel32.SetConsoleTitleW("BBH Farm Bot (auto respawn and death) @Michal")
 
         self.connectToServer(Username, Password, self.ServerIP, self.ServerPort)
 
