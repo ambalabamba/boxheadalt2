@@ -51,7 +51,7 @@ class FarmBot:
             KeepAliveTimer.start()
 
             self.sendPacket(self.SocketConn, '8034021')
-            self.sendPacket(self.SocketConn, '61009999'.format(self.BotID))
+            self.sendPacket(self.SocketConn, '61019999'.format(self.BotID))
 
     def connectionHandler(self):
         Buffer = b''
@@ -112,18 +112,18 @@ class FarmBot:
             print('Server capacity check failed')
         
 if __name__ == '__main__': # rest in pieces
-    FarmBot('cigisnice',  'lolok', '45.63.119.253', 1031)
-    FarmBot('NiceFun',  'lolok', '45.63.119.253', 1031)
-    FarmBot('imfadedhead',  'lolok', '45.63.119.253', 1031)
-    FarmBot('imnotbro',  'lolok', '45.63.119.253', 1031)
-    FarmBot('richclassbabe',  'lolok', '45.63.119.253', 1031)
-    FarmBot('imawomans',  'lolok', '45.63.119.253', 1031)
-    FarmBot('imawomanz',  'lolok', '45.63.119.253', 1031)
-    FarmBot('thuglifers',  'lolok', '45.63.119.253', 1031)
-    FarmBot('thugvillain',  'lolok', '45.63.119.253', 1031)
-    FarmBot('BishPleasez',  'lolok', '45.63.119.253', 1031)
-    FarmBot('limpbiskuit',  'lolok', '45.63.119.253', 1031)
-    FarmBot('newwanteds',  'lolok', '45.63.119.253', 1031)
-    FarmBot('newwantedr',  'lolok', '45.63.119.253', 1031)
-    FarmBot('BackOnUrKnees',  'lolok', '45.63.119.253', 1031)
-    FarmBot('ShadyCrazy',  'lolok', '45.63.119.253', 1031)
+    FarmBot('boxalt',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt1',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt2',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt3',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt4',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt5',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt6',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt7',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt8',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt9',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt10',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt11',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt12',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt13',  'colealt', '45.63.119.253', 1031)
+    FarmBot('boxalt14',  'colealt', '45.63.119.253', 1031)
